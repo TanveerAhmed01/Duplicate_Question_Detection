@@ -3,7 +3,7 @@
 ## Overview
 This project applies Natural Language Processing (NLP) and Machine Learning techniques to identify whether two questions have the same intent and are duplicates of each other. By extracting semantic, syntactic, and structural features from text pairs, the models classify question pairs as duplicates or non-duplicates.
 
-## 📁 Dataset
+## Dataset
 The primary dataset used for this analysis is **`questions.csv`** (stored in a `Dataset` folder). 
 It contains pairs of questions with the following key columns:
 * **`question1` & `question2`:** The raw text of the question pairs.
@@ -36,6 +36,6 @@ The project follows an advanced NLP data science pipeline:
 ## How to Run
 1. Clone this repository or download the files.
 2. Ensure you have the required libraries installed (e.g., `transformers`, `sentence-transformers`, `fuzzywuzzy`, `xgboost`, `lightgbm`, `rake-nltk`).
-3. Open `Duplicate_Question (1).ipynb` in Google Colab or Jupyter Notebook.
+3. Open `Duplicate_Question.ipynb` in Google Colab or Jupyter Notebook.
 4. Upload the `questions.csv` dataset when prompted by the notebook.
 5. Run all cells to process the text, extract features, and evaluate the classification models.
